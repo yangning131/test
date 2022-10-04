@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/func.h
+
+/home/ynp/codetest_ws/test1withutest_ws/src/main.cpp
+iostream
+-
+vector
+-
+func.h
+/home/ynp/codetest_ws/test1withutest_ws/src/func.h
+
